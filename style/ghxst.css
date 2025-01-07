@@ -1,0 +1,126 @@
+:root[data-theme="light"] {
+    --text: #191417;
+    --background: #f0edf3;
+    --primary: #432c5e;
+    --secondary: #ab7dd4;
+    --accent: #782abb;
+}
+:root[data-theme="dark"] {
+    --text: #eae5e8;
+    --background: #100d13;
+    --primary: #b8a1d3;
+    --secondary: #5b2c83;
+    --accent: #9043d5;
+}  
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+section {
+    background-color: #1A1A1A;
+    margin: 10px;
+    width: 1500px;
+    height: 730px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.text1 {
+    grid-area: 1 / 1 / 4 / 2;
+    width: 1050px;
+}
+.text2 {
+    grid-area: 2 / 2 / 3 / 3;
+    width: 420px;
+}
+.divh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #100d13;
+    padding-right: 20px;
+    border-radius: 20px;
+    width: 1440px;
+    height: 50px;
+    margin: 20px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+p, li, h2, h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+.dc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    background-color: #100d13;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Lato", sans-serif;
+}
+.dc a:hover {
+    background-color: #0F0F10;
+    color: #ffffff;
+}
+.dc-link:hover {
+    background-color: #100d13;
+}
+.box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.prim {
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.discord {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.invite {
+    width: 100vh;
+    height: 690px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
